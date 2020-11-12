@@ -1,0 +1,30 @@
+body {
+    background-image: src="src/images/writinghand.jpg";
+    filter: blur(4px);
+  }
+
+
+h1 {
+ text-align: center;
+ padding: 40px 0 100px 0;   
+}
+
+h3 {
+  padding: 20px 0 10px 20px;  
+}
+
+.containerLists {
+    margin: 20px 150px 20px 150px; 
+}
+
+.bagpack {
+    border: solid 3px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.toDos {
+    border: solid 3px;
+    border-radius: 20px;
+    
+}
