@@ -1,6 +1,8 @@
 body {
-    background-image: src="src/images/writinghand.jpg";
-    filter: blur(4px);
+    background-image: url(../src/images/writinghand.jpg);
+    filter: blur(10px);
+    background-size: cover;
+    background-position: center;
   }
 
 
