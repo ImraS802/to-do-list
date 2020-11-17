@@ -1,14 +1,19 @@
 body {
-    background-image: url(../src/images/writinghand.jpg);
-    filter: blur(10px);
-    background-size: cover;
+  background-image: url("../src/images/writinghand.jpg");
+    
+    
+    background-color: #3bb0db;
+    background-attachment: fixed; 
+    opacity: 2; 
+    background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
   }
-
 
 h1 {
  text-align: center;
- padding: 40px 0 100px 0;   
+ padding: 40px 0 100px 0; 
+ 
 }
 
 h3 {
