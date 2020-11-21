@@ -1,5 +1,5 @@
-#main{
-    position:relative;
+#main {
+    position: relative;
     }
 
     div#backgroundImage {
@@ -45,3 +45,10 @@ h3 {
     background-color: #b2f5f0;
 }
 
+button {
+    background-color: rgb(119, 168, 233);
+    border-radius: 5px;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+}
