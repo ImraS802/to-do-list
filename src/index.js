@@ -3,22 +3,17 @@ function updateHeading(newHeading) {
     heading.innerHTML = newHeading;
 }
 
-function emailAddress() {
-    let email = prompt("What is your email adress?");
-    return true;
-}
 
-
-
-function clickButton () {
+    function clickButton() {
     let name = prompt("What is your name?");
-
-    if (emailAddress()) {
-    updateHeading(`To-do list for ${name}!`);
+    let email = prompt("What is your email adress?");
+    
+    if (name.length > 0 && email.length > 0) {
+    updateHeading(`To-do list for <em>${name}</em>!`);
    } else {
-    updateHeading(`Sorry <em>${name}</em> we cannot personalize your request!`);
+    updateHeading(`Sorry <em>${name}</em> we cannot personalize this webpage for you!`);
 }
-    }
+}
 
     let personalizationButton = document.querySelector("button");
     personalizationButton.addEventListener("click", clickButton);
