@@ -11,7 +11,7 @@ function updateHeading(newHeading) {
     if (name.length > 0 && email.length > 0) {
     updateHeading(`To-do list for <em>${name}</em>!`);
    } else {
-    updateHeading(`Sorry <em>${name}</em> we cannot personalize this webpage for you!`);
+    updateHeading(`Sorry <em>${name}</em> we cannot personalize this webpage for you! <br> You have to answer the questions first.`);
 }
 }
 

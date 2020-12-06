@@ -100,3 +100,9 @@ margin: 0 0 0 140px;
     display: block;
     margin: 0 auto;
 }
+
+.carousel-banner .carousel-item {
+    transition: transform 2s ease, opacity .5s ease-out;
+    height: 400px;
+}
+
